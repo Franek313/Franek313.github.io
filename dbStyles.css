@@ -1,0 +1,19 @@
+#table-container {
+    background-color: lightgray;
+    border: 1px solid #ddd;
+}
+
+#table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#table-container th, #table-container td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#table-container th {
+    background-color: #fdbc3e;
+}

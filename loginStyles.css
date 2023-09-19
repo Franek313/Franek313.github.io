@@ -1,0 +1,15 @@
+h1
+{
+    text-align: center;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#login-container
+{
+    display: flex;
+    flex-direction: column;
+}

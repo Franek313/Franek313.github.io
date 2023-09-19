@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firma Energia - Logowanie</title>
+
+    <!--jQuery library load-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!--CSS style sheet file links-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="loginStyles.css">
+
+    <!--JS scripts links-->
+    <script src="dbconnectPHP.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html"><img src="logo-firmy.png" alt="Firma Energia" class="logo"></a>
+    </div>
+
+    <form id="login-container">
+        <label for="username">Nazwa użytkownika lub Email:</label>
+        <input type="text" id="username" name="username" required><br>
+        <label for="password">Hasło:</label>
+        <input type="password" id="password" name="password" required><br>
+        <button type="submit">Zaloguj się</button>
+    </form>
+
+</body>
+</html>
